@@ -19,6 +19,13 @@ namespace c_Basics05
             ////تمت الطباعه لان scope المتغير CopiesInstock معرف ك internal داخل الكلاس Book و يمكن الوصول اليه من نفس المشروع.
 
             #endregion
+            #region question 3
+            Book book3 = new Book();
+            book3.Title = "atomic habbit";
+            Console.WriteLine($"the title is: = {book3.Title}");    
+            #endregion
+
+
         }
     }
 }

@@ -8,5 +8,6 @@ namespace c_Basics05
     {
       private string password = "secret";
        internal int CopiesInstock = 10;
+        public string Title;
     }
 }
