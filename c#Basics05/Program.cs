@@ -20,9 +20,14 @@ namespace c_Basics05
 
             #endregion
             #region question 3
-            Book book3 = new Book();
-            book3.Title = "atomic habbit";
-            Console.WriteLine($"the title is: = {book3.Title}");    
+            //Book book3 = new Book();
+            //book3.Title = "atomic habbit";
+            //Console.WriteLine($"the title is: = {book3.Title}");    
+            #endregion
+            #region question 4
+            Book book4 = new Book();
+            book4.BookGenre = Genre.Science;
+            Console.WriteLine($"the genre is: = {book4.BookGenre}");
             #endregion
 
 
