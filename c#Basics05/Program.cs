@@ -40,14 +40,22 @@ namespace c_Basics05
             //console.writeline($"the genre for number {genrenumber} is: {mygenre}");
             #endregion
             #region question 7
-            Genre genre = Genre.Fiction;
-            string genreString = genre.ToString();
-            Console.WriteLine($"The string value is: {genreString}");
+            //Genre genre = Genre.Fiction;
+            //string genreString = genre.ToString();
+            //Console.WriteLine($"The string value is: {genreString}");
+            #endregion
+            #region question 8
+            string genreText = "Science";
+            Genre parsedGenre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            Console.WriteLine($"Parsed Genre: {parsedGenre}"); 
             #endregion
 
             
 
-            
+
+
+
+
 
 
 
