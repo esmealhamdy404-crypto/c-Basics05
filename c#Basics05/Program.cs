@@ -35,14 +35,23 @@ namespace c_Basics05
             //Console.WriteLine($"Science value: {(int)Genre.Science}");
             #endregion
             #region question 6
-            int genreNumber = 1;
-           Genre myGenre = (Genre)genreNumber;
-            Console.WriteLine($"The genre for number {genreNumber} is: {myGenre}");
+            //int genrenumber = 1;
+            //genre mygenre = (genre)genrenumber;
+            //console.writeline($"the genre for number {genrenumber} is: {mygenre}");
+            #endregion
+            #region question 7
+            Genre genre = Genre.Fiction;
+            string genreString = genre.ToString();
+            Console.WriteLine($"The string value is: {genreString}");
             #endregion
 
-                  
+            
 
-           
+            
+
+
+
+
         }
     }
 }
