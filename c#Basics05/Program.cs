@@ -45,12 +45,25 @@ namespace c_Basics05
             //Console.WriteLine($"The string value is: {genreString}");
             #endregion
             #region question 8
-            string genreText = "Science";
-            Genre parsedGenre = (Genre)Enum.Parse(typeof(Genre), genreText);
-            Console.WriteLine($"Parsed Genre: {parsedGenre}"); 
+            //string genreText = "Science";
+            //Genre parsedGenre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //Console.WriteLine($"Parsed Genre: {parsedGenre}"); 
+            #endregion
+            #region question 9
+            string invalidGenreText = "Mystery";
+
+           
+            if (Enum.TryParse(invalidGenreText, out Genre resultGenre))
+            {
+                Console.WriteLine($"Parsed Genre: {resultGenre}");
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre"); 
+            }
             #endregion
 
-            
+
 
 
 
