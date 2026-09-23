@@ -30,11 +30,19 @@ namespace c_Basics05
             //Console.WriteLine($"the genre is: = {book4.BookGenre}");
             #endregion
             #region question 5
-            Console.WriteLine($"Fiction value: {(int)Genre.Fiction}");
-            Console.WriteLine($"NonFiction value: {(int)Genre.NonFiction}");
-            Console.WriteLine($"Science value: {(int)Genre.Science}");
+            //Console.WriteLine($"Fiction value: {(int)Genre.Fiction}");
+            //Console.WriteLine($"NonFiction value: {(int)Genre.NonFiction}");
+            //Console.WriteLine($"Science value: {(int)Genre.Science}");
+            #endregion
+            #region question 6
+            int genreNumber = 1;
+           Genre myGenre = (Genre)genreNumber;
+            Console.WriteLine($"The genre for number {genreNumber} is: {myGenre}");
             #endregion
 
+                  
+
+           
         }
     }
 }
