@@ -25,11 +25,15 @@ namespace c_Basics05
             //Console.WriteLine($"the title is: = {book3.Title}");    
             #endregion
             #region question 4
-            Book book4 = new Book();
-            book4.BookGenre = Genre.Science;
-            Console.WriteLine($"the genre is: = {book4.BookGenre}");
+            //Book book4 = new Book();
+            //book4.BookGenre = Genre.Science;
+            //Console.WriteLine($"the genre is: = {book4.BookGenre}");
             #endregion
-
+            #region question 5
+            Console.WriteLine($"Fiction value: {(int)Genre.Fiction}");
+            Console.WriteLine($"NonFiction value: {(int)Genre.NonFiction}");
+            Console.WriteLine($"Science value: {(int)Genre.Science}");
+            #endregion
 
         }
     }
